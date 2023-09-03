@@ -7,9 +7,9 @@ This script checks your battery level and lets you know if the battery gets belo
 To use the NTFY features update the Ntfy configuration variables with the URL target location and topic.
 
 To have the script run every 5 minutes in Linux run the following:
-  Download the py file and move to your script location
-  sudo mv battery-check.py /usr/local/bin/
-  sudo chmod +x /usr/local/bin/battery-check.py
-  crontab -e
-    Add the following line for the script to run every 5 minutes
-    */5 * * * * /usr/bin/python3 /usr/local/bin/battery-check.py
+#  Download the py file and move to your script location
+#  sudo mv battery-check.py /usr/local/bin/
+#  sudo chmod +x /usr/local/bin/battery-check.py
+#  crontab -e
+#    Add the following line for the script to run every 5 minutes
+#    */5 * * * * /usr/bin/python3 /usr/local/bin/battery-check.py
